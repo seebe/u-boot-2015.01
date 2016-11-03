@@ -9,6 +9,8 @@ config TARGET_GENMAI
        bool "GENMAI board"
 config TARGET_RSKRZA1
 	bool "RSK-RZA/1 board"
+config TARGET_HACHIKO
+	bool "ArchiTech Hachiko board"
 
 endchoice
 
@@ -18,5 +20,6 @@ config SYS_SOC
 source "board/renesas/grpeach/Kconfig"
 source "board/renesas/genmai/Kconfig"
 source "board/renesas/rskrza1/Kconfig"
+source "board/architech/hachiko/Kconfig"
 
 endif

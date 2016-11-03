@@ -1,0 +1,6 @@
+HACHIKO BOARD
+#M:	-
+S:	Maintained
+F:	board/architech/hachiko/
+F:	include/configs/hachiko.h
+F:	configs/hachiko_defconfig

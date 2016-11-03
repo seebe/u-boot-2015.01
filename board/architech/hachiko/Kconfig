@@ -1,0 +1,12 @@
+if TARGET_HACHIKO
+
+config SYS_BOARD
+	default "hachiko"
+
+config SYS_VENDOR
+	default "architech"
+
+config SYS_CONFIG_NAME
+	default "hachiko"
+
+endif
